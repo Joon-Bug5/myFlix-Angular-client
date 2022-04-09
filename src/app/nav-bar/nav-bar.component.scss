@@ -1,0 +1,24 @@
+.logout {
+  color: rgb(255, 255, 255);
+  background-color: rgb(54, 54, 95);
+  font-size: 20px;
+}
+
+.nav-bar {
+  position: static;
+  width: 100%;
+  top: 0;
+}
+
+.tool-bar {
+  justify-content: flex-start;
+  gap: 36px;
+  border-bottom: 1px solid;
+  color: rgb(255, 255, 255);
+  background-color: rgb(54, 54, 95);
+  font-size: 20px;
+}
+
+button {
+  font-size: 20px;
+}

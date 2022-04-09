@@ -1,0 +1,130 @@
+.user-profile {
+  background-color: rgb(150, 150, 255);
+  height: 30%;
+  border: 1px solid rgb(255, 255, 255);
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding-top: 20px;
+}
+
+.profile-title {
+  background-color: rgb(54, 54, 95);
+  color: rgb(255, 255, 255);
+  margin-bottom: 8px;
+  padding-top: 8px;
+  justify-content: center;
+  border-radius: 25px;
+}
+
+.usercard {
+  border: 2px solid rgb(0, 0, 0);
+  height: 220px;
+  width: 350px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+}
+
+.mat-card-header {
+  background-color: rgb(54, 54, 95);
+  color: rgb(255, 255, 255);
+  margin-bottom: 8px;
+  padding-top: 8px;
+  justify-content: center;
+  border: 1.5px solid rgb(0, 0, 0);
+}
+
+.mat-card-subtitle {
+  color: rgb(255, 255, 255);
+}
+
+.usercard-greeting {
+  font-size: 20px;
+  font-weight: bold;
+  align-items: center;
+}
+
+.edit-button {
+  margin-right: 100px;
+  border-radius: 25px;
+  background-color: rgb(54, 54, 95);
+}
+
+.delete-button {
+  border-radius: 25px;
+  background-color: rgb(54, 54, 95);
+}
+
+p {
+  border-bottom: 1px dashed rgb(0, 0, 0);
+}
+
+.favorite-card {
+  margin: 10px;
+  width: 250px;
+  background-color: rgb(255, 255, 255);
+}
+
+.favorites-container {
+  background-color: rgb(150, 150, 255);
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.user-fav {
+  padding-top: 5px;
+  text-align: center;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  padding-bottom: 5px;
+  margin-bottom: 0.5px;
+}
+
+.img-container img {
+  width: 240px;
+  height: 300px;
+  margin: 7px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fav-header {
+  justify-content: center;
+  text-align: center;
+  height: 70px;
+}
+.fav-title {
+  font-size: 20px;
+}
+.fav-subtitle {
+  font-size: 12px;
+}
+.fav-action {
+  margin-top: 10px;
+  height: 10px;
+  display: flex;
+  border-top: solid 1px;
+}
+.fav-action-btn {
+  color: rgb(0, 0, 0);
+}
+
+.mat-icon-button {
+  position: absolute;
+  right: 3px;
+  top: 3px;
+}
+
+.remove-btn {
+  color: rgb(41, 41, 255);
+}
+
+h2 {
+  font-size: 30px;
+}
