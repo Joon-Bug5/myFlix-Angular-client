@@ -10,7 +10,7 @@
  })
  export class UserEditComponent implements OnInit {
    Username = localStorage.getItem('user');
-   user: any = JSON.parse(localStorage.getItem('user') || '');
+   user: any = {};
  
    constructor(
      public fetchApiData: FetchApiDataService,
@@ -36,16 +36,12 @@
      });
    }
 
-   editUser(): void {
+   editUserProfile(): void {
     this.fetchApiData.editUserProfile(this.userProfile).subscribe((resp) => {
       this.dialogRef.close();
-
-      // update profile in localstorage
-      localStorage.setItem('Username', this.userProfile.Username);
-      localStorage.setItem('Password', this.userProfile.Password);
-
-      this.snackBar.open('Your profile was updated successfully!', 'OK', {
-        duration: 4000,
+      localStorage.setItem('user', resp.Username);
+      this.snackBar.open('Your profile was updated successfully.', 'OK', {
+        duration: 2000
       });
       setTimeout(() => {
         window.location.reload();
